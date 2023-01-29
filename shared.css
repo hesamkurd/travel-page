@@ -11,7 +11,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 64px;
+  padding: 16px 56px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
 #page-logo a {
   padding: 10px;
@@ -27,4 +32,16 @@ header ul {
 }
 header li {
   margin-left: 20px;
+}
+header a {
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  padding: 10px;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+header a:hover {
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 251, 0);
 }
